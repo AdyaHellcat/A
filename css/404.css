@@ -111,7 +111,7 @@
   margin-left: 273px;
   margin-top: 28px;
   padding-left: 25px;
-  width: 140px;
+  width: 115px;
   height: 40px;
   background: #7247CA;
   border-radius: 4px;
@@ -252,10 +252,10 @@ a{
   color: inherit;
   text-decoration: none;
 }
-.header__episodes-link:hover,.header__blog-link:hover,.header__contact-link:hover,.header__donate-link:hover{
+.header__episodes-link:hover,.header__logo-link:hover,.header__blog-link:hover,.header__contact-link:hover,.header__donate-link:hover{
   color: #7247CA;
 }
-button,.header__icon-search,.footer__social-facebook,.footer__social-github,.footer__social-twitter{
+button,.header__logo-link,.header__icon-search,.footer__social-facebook,.footer__social-github,.footer__social-twitter{
   cursor: pointer;
 }
 .main__button:hover{

@@ -511,13 +511,13 @@ a{
   color: inherit;
   text-decoration: none;
 }
-.header__episodes-link:hover,.header__blog-link:hover,.header__contact-link:hover,.header__donate-link:hover{
+.header__episodes-link:hover,.header__logo-link:hover,.header__blog-link:hover,.header__contact-link:hover,.header__donate-link:hover{
   color: #7247CA;
 }
 button{
   border: none;
 }
-button,.header__icon-search,.footer__social-facebook,.footer__social-github,.footer__social-twitter,.main__podcast-block-play-button-group,.main__pagination-element,.main__pagination-icon,.main__post-link,.main__team-card-social-icon,.main-subscribe__icon{
+button,.header__logo-link,.header__icon-search,.footer__social-facebook,.footer__social-github,.footer__social-twitter,.main__podcast-block-play-button-group,.main__pagination-element,.main__pagination-icon,.main__post-link,.main__team-card-social-icon,.main-subscribe__icon{
   cursor: pointer;
 }
 .main__button-group:hover,.main__blog-button-group:hover,.main__pagination-element:hover{

@@ -282,10 +282,10 @@ a{
   color: inherit;
   text-decoration: none;
 }
-.header__episodes-link:hover,.header__blog-link:hover,.header__contact-link:hover,.header__donate-link:hover{
+.header__episodes-link:hover,.header__logo-link:hover,.header__blog-link:hover,.header__contact-link:hover,.header__donate-link:hover{
   color: #7247CA;
 }
-button,.main__pagination-element,.main__pagination-icon,.main__post-link,.header__icon-search,.footer__social-facebook,.footer__social-github,.footer__social-twitter{
+button,.header__logo-link,.main__pagination-element,.main__pagination-icon,.main__post-link,.header__icon-search,.footer__social-facebook,.footer__social-github,.footer__social-twitter{
   cursor: pointer;
 }
 .main__pagination-element:hover{
