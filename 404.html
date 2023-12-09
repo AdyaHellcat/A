@@ -11,7 +11,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div class="header-wrapper">
       <header class="header">
         <div class="header__logo"><a class="header__logo-link" href="Mainpage.html">CastPress.</a></div>
         <img class="header__burger" src="img/burger.png" alt="header-burger">
@@ -26,10 +25,12 @@
             <img class="header__icon-donate" src="img/donate.png" alt="donate">
             <div class="header__donate"><a class="header__donate-link" href="404.html">DONATE</a></div>
           </div>
-          <img class="header__icon-search" src="img/search.png" alt="search">
+          <form class="header__search">
+            <img class="header__icon-search" src="img/search.png" alt="search">
+            <input class="header__input-field" placeholder="Поиск..." type="text">     
+          </form>
         </div>
       </header>
-    </div>
     <div class="header-line"></div>
     <div class="main-wrapper">
       <main class="main">
@@ -47,16 +48,16 @@
       <footer class="footer">
         <div class="footer__group1">
           <div class="footer__pages">
-            <div class="footer__episodes">Episodes</div>
-            <div class="footer__blog">Blog</div>
-            <div class="footer__contact">Contact</div>
-            <div class="footer__donate">Donate</div>
+            <div class="footer__episodes"><a href="404.html">Episodes</a></div>
+            <div class="footer__blog"><a href="Blog.html">Blog</a></div>
+            <div class="footer__contact"><a href="Contact.html">Contact</a></div>
+            <div class="footer__donate"><a href="404.html">Donate</a></div>
           </div>
           <div class="footer__newsletter-group">
             <p class="footer__newsletter">NEWSLETTER</p>
             <p class="footer__signup"> Sign up now; get closer to our action.</p>
             <div class="footer__email-group">
-              <div class="footer__email"><input placeholder="Email adress..." type="text"></div>
+              <form class="footer__email"><input placeholder="Email adress..." type="text"></form>
               <button class="footer__button" type="submit">
                 <img class="footer__arrow" src="img/arrow2.png" alt="send">
               </button>
@@ -66,9 +67,9 @@
         <div class="footer__group2">
           <p class="footer__privacy">PodcastTheme By VitaThemes | Privacy Policy</p>
           <div class="footer__social">
-            <img class="footer__social-facebook" src="img/facebook.png" alt="facebook">
-            <img class="footer__social-github" src="img/github.png" alt="github">
-            <img class="footer__social-twitter" src="img/twitter.png" alt="twitter">
+            <a href="404.html"><img class="footer__social-facebook" src="img/facebook.png" alt="facebook"></a>
+            <a href="404.html"><img class="footer__social-github" src="img/github.png" alt="github"></a>
+            <a href="404.html"><img class="footer__social-twitter" src="img/twitter.png" alt="twitter"></a>
           </div>
         </div>
       </footer>

@@ -19,8 +19,8 @@
 }
 .header__menu{
   margin-top: 40px;
-  margin-right: 140px;
-  width: 437px;
+  margin-right: 41px;
+  width: 537px;
   display: flex;
   justify-content: space-between;
   font-style: normal;
@@ -28,6 +28,7 @@
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.16em;
+  gap: 32px;
 }
 .header__episodes-group{
   max-width: 85px;
@@ -35,6 +36,7 @@
   display: flex;
   justify-content: space-between;
   gap: 6px;
+  letter-spacing: 0.13em;
 }
 .header__icon-arrow{
   width: 8px;
@@ -68,8 +70,18 @@
 .header-line{
   margin-top: 46px;
 }
-
-
+.header__search{
+  display: flex;
+}
+.header__input-field{
+  width: 100px;
+  height: 16px;
+  margin: 0%;
+  visibility: hidden;
+}
+.header__search:hover .header__input-field{
+  visibility: visible;
+}
 
 
 .main-wrapper{
@@ -204,13 +216,13 @@
 
 
 .main__podcast-block{
-  margin-bottom: 70px;
+  margin-bottom: 68px;
 }
 .main__podcast-block:nth-of-type(3){
-  margin-bottom: 52px;
+  margin-bottom: 47px;
 }
 .main__podcast-block:nth-of-type(4){
-  margin-bottom: 65px;
+  margin-bottom: 61px;
 }
 .main__podcast-block-new-date{
   display: flex;
@@ -387,13 +399,16 @@
   width: 4.27px;
   height: 8px;
 }
+.main__pagination-icon-link{
+  align-self: center;
+}
 
 
 .footer-line{
   border: 1px solid #EAEAEE;
   transform: rotate(180deg);
   max-width: 670px;
-  margin: 85px 0 40px 400px;
+  margin: 68px 0 60px 400px;
 }
 .footer-wrapper{
   display: flex;
@@ -408,7 +423,7 @@
   width: 670px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 59px;
+  margin-bottom: 55px;
 }
 .footer__pages{
   font-family: 'Source Serif 4', serif;
@@ -433,7 +448,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.12em;
   margin-top: 0%;
   margin-bottom: 0%;
   color: #222222;
@@ -511,7 +526,7 @@ a{
   color: inherit;
   text-decoration: none;
 }
-.header__episodes-link:hover,.header__logo-link:hover,.header__blog-link:hover,.header__contact-link:hover,.header__donate-link:hover{
+.footer__episodes:hover,.footer__blog:hover,.footer__contact:hover,.footer__donate:hover,.header__episodes-link:hover,.header__logo-link:hover,.header__blog-link:hover,.header__contact-link:hover,.header__donate-link:hover{
   color: #7247CA;
 }
 button{
@@ -520,7 +535,7 @@ button{
 button,.header__logo-link,.header__icon-search,.footer__social-facebook,.footer__social-github,.footer__social-twitter,.main__podcast-block-play-button-group,.main__pagination-element,.main__pagination-icon,.main__post-link,.main__team-card-social-icon,.main-subscribe__icon{
   cursor: pointer;
 }
-.main__button-group:hover,.main__blog-button-group:hover,.main__pagination-element:hover{
+.main__button:hover,.main__blog-button:hover,.main__pagination-element:hover{
   box-shadow: 0px 4px 4px #222222;
 }
 

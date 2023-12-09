@@ -11,7 +11,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-      <div class="header-wrapper">
         <header class="header">
           <div class="header__logo"><a class="header__logo-link" href="Mainpage.html">CastPress.</a></div>
           <img class="header__burger" src="img/burger.png" alt="header-burger">
@@ -26,21 +25,23 @@
               <img class="header__icon-donate" src="img/donate.png" alt="donate">
               <div class="header__donate"><a class="header__donate-link" href="404.html">DONATE</a></div>
             </div>
-            <img class="header__icon-search" src="img/search.png" alt="search">
+            <form class="header__search">
+              <img class="header__icon-search" src="img/search.png" alt="search">
+              <input class="header__input-field" placeholder="Поиск..." type="text">     
+            </form>
           </div>
         </header>
           <div class="header-line"></div>
-      </div>
       <div class="main-wrapper">
         <main class="main">
           <div class="main__contact">Contact</div>
           <p class="main__description">Love to hear your thoughts, fears &amp; feelings...</p>
           <p class="main__placeholder-name">Name*</p>
-          <div class="main__placeholder"><input class="main__input-name" required placeholder="Enter your name" type="text"></div>
+          <form class="main__placeholder"><input class="main__input-name" required placeholder="Enter your name" type="text"></form>
           <p class="main__placeholder-name">Email*</p>
-          <div class="main__placeholder-email"><input class="main__input-email" required placeholder="Enter your email" type="text"></div>
+          <form class="main__placeholder-email"><input class="main__input-email" required placeholder="Enter your email" type="text"></form>
           <p class="main__placeholder-name">Message</p>
-          <div class="main__textarea"><textarea class="main__input-message" placeholder="Enter your message"></textarea></div>
+          <form class="main__textarea"><textarea class="main__input-message" placeholder="Enter your message"></textarea></form>
           <div class="main__button-group">
             <button class="main__button" type="submit">Submit
               <img class="main__button-icon" src="img/arrow1.png" alt="Submit">
@@ -53,16 +54,16 @@
         <footer class="footer">
           <div class="footer__group1">
             <div class="footer__pages">
-              <div class="footer__episodes">Episodes</div>
-              <div class="footer__blog">Blog</div>
-              <div class="footer__contact">Contact</div>
-              <div class="footer__donate">Donate</div>
+              <div class="footer__episodes"><a href="404.html">Episodes</a></div>
+              <div class="footer__blog"><a href="Blog.html">Blog</a></div>
+              <div class="footer__contact"><a href="Contact.html">Contact</a></div>
+              <div class="footer__donate"><a href="404.html">Donate</a></div>
             </div>
             <div class="footer__newsletter-group">
               <p class="footer__newsletter">NEWSLETTER</p>
               <p class="footer__signup"> Sign up now; get closer to our action.</p>
               <div class="footer__email-group">
-                <div class="footer__email"><input placeholder="Email adress..." type="text"></div>
+                <form class="footer__email"><input placeholder="Email adress..." type="text"></form>
                 <button class="footer__button" type="submit">
                   <img class="footer__arrow" src="img/arrow2.png" alt="send">
                 </button>
@@ -72,9 +73,9 @@
           <div class="footer__group2">
             <p class="footer__privacy">PodcastTheme By VitaThemes | Privacy Policy</p>
             <div class="footer__social">
-              <img class="footer__social-facebook" src="img/facebook.png" alt="facebook">
-              <img class="footer__social-github" src="img/github.png" alt="github">
-              <img class="footer__social-twitter" src="img/twitter.png" alt="twitter">
+              <a href="404.html"><img class="footer__social-facebook" src="img/facebook.png" alt="facebook"></a>
+              <a href="404.html"><img class="footer__social-github" src="img/github.png" alt="github"></a>
+              <a href="404.html"><img class="footer__social-twitter" src="img/twitter.png" alt="twitter"></a>
             </div>
           </div>
         </footer>
